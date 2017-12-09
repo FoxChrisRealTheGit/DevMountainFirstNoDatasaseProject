@@ -5,6 +5,10 @@
     flex-direction: column;
     align-items: center;
     border-bottom: 2px solid black;
+    position: sticky;
+    top:-200px;
+    background: white;
+
 }
 
 .brand{
@@ -18,11 +22,21 @@
     justify-content: space-between;
     margin: 50px auto 5vh;
     width: 400px;
+ 
   
 }
 
-.main-nav li{
+.main-nav li a{
     font-variant: small-caps;
     font-weight: 900;
     font-size: 22px;
+    text-decoration: none;
+    color: black;
+  
+}
+
+.main-nav li a:hover{
+    color: blue;
+    font-size: 24px;
+    text-shadow: 0.5px 1px 2px black;
 }

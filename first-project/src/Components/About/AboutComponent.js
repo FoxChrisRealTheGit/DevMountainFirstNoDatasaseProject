@@ -1,19 +1,17 @@
 import React ,{Component} from 'react';
-
 import Header from '../Header/HeaderComponent';
 import Footer from '../Footer/FooterComponent';
 
-import Crypto from './cryptoApp/CryptoAppComponent';
-
-export default class PortfolioComponent extends Component{
+export default class AboutComponent extends Component{
 
     render(){
-
         return(
             <section>
-            <Header />
-            <Crypto />
-            <Footer />
+               <Header />
+                <div>
+                    About
+                    </div>
+               <Footer />
             </section>
         )
     }

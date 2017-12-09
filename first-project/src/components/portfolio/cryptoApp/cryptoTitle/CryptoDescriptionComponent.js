@@ -7,8 +7,8 @@ export default class CryptoDescriptionComponent extends Component {
 
     render() {
         return (
-            <div>
-                Child Description!!!!
+            <div className="CryptoDescription">
+                <p>Child Description!!!!</p>
             </div>
     )
     }

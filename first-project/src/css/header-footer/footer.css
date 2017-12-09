@@ -23,11 +23,13 @@
 }
 
 .social-media-links a{
-    color: blue;
+    color: black;
 
 }
 .social-media-links a:hover{
-    color: black;
+    color: blue;
+    font-size: 24px;
+    text-shadow: 0.5px 1px 2px black;
 
 }
 
@@ -39,10 +41,12 @@
 .copyright-line h6 a{
     text-decoration: none;
     font-weight: 900;
-    color: blue;
+    color: black;
 }
 .copyright-line h6 a:hover{
     text-decoration: none;
     font-weight: 900;
-    color: black;
+    color: blue;
+    font-size: 18px;
+    text-shadow: 0.5px 1px 2px black;
 }

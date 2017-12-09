@@ -1,0 +1,61 @@
+/* selectors css */
+.CryptoInfoComponents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.CryptoInfoSelectors{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.CryptoInfoSelectors select{
+    width: 200px;
+}
+
+.CryptoTableBox{
+    width: 80%;
+    border-bottom: 1px solid black;
+ 
+}
+
+.CryptoTable{
+    margin: 50px auto;
+    width: 1000px;
+
+}
+
+.Empty-Corner{
+    border: none;
+}
+
+.CryptoTable th{
+    text-align: center;
+    font-weight: 900;
+    height: 50px;
+    vertical-align: middle;
+}
+.CryptoTable .Left-Head{
+    text-align: right;
+    font-weight: 900;
+    width: 140px;
+    height: 50px;
+    border: none;
+    vertical-align: middle;
+    padding-right: 5px;
+
+}
+.CryptoTable td{
+    text-align: center;
+    border: 1px solid black;
+    height: 50px;
+    vertical-align: middle;
+
+}
+table{
+    border-spacing: 5px;
+}

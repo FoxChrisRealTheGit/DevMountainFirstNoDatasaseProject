@@ -1,17 +1,17 @@
-import React ,{Component} from 'react';
+import React, { Component } from 'react';
 
 import '../../../../../css/components/Crypto/cryptoInfo.css';
 
-export default class CryptoComparisonComponent extends Component{
-    
-    render(){
-        return(
-            <div className="CryptoTableBox">
-            <h2>Comparison Table</h2>
+export default class CryptoHistoricalComponent extends Component {
+
+    render() {
+        return (
+            <div>
+                <h2>Historical Data From Past Year</h2>
                 <table className="CryptoTable">
                 <thead>
                     <tr>
-                        <th className="Empty-Corner">    </th>
+                        <th>    </th>
                         <th>BTC </th>
                         <th>ETH </th>
                         <th>DASH</th>
@@ -20,42 +20,42 @@ export default class CryptoComparisonComponent extends Component{
                     </thead>
                     <tbody>
                     <tr>
-                        <th className="Left-Head">Bitcoin (BTC):</th>
+                        <th className="Left-Head">1 Week %:</th>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>
                     </tr>
                     <tr>
-                        <th className="Left-Head">Ethereum (ETH):</th>
+                        <th className="Left-Head">1 Month %:</th>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>
                     </tr>
                     <tr>
-                        <th className="Left-Head">Dash (DASH):</th>
+                        <th className="Left-Head">1 Year %:</th>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>
                     </tr>
                     <tr>
-                        <th className="Left-Head">Augur (AUG):</th>
+                        <th className="Left-Head">1 Year High:</th>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>
                     </tr>
                     <tr>
-                        <th className="Left-Head">Gnosis (GNO):</th>
+                        <th className="Left-Head">1 Year Median:</th>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>
                     </tr>
                     <tr>
-                        <th className="Left-Head">Golumn (GOL):</th>
+                        <th className="Left-Head">1 Year Low:</th>
                         <td>20%</td>
                         <td>20%</td>
                         <td>20%</td>

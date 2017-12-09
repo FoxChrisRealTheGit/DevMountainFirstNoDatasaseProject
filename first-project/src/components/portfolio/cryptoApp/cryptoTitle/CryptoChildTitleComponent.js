@@ -6,8 +6,8 @@ export default class CryptoChildTitleComponent extends Component{
 
     render(){
         return(
-            <div>
-                    Child Title!!!
+            <div className="CryptoTitle">
+                    <h1>Crypto-Currency Watcher</h1>
             </div>
         )
     }
