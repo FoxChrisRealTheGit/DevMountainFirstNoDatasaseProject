@@ -34,7 +34,7 @@ componentWillMount(){
         
         return(
             <div className="CryptoTableBox">
-            <h2>Basic Information</h2>
+            <h2 className="CryptoHeading">basic information</h2>
             <table className="CryptoTable">
             <thead>
                 <tr>

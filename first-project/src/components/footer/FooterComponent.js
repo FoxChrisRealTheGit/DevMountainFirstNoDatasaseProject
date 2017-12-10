@@ -12,9 +12,9 @@ export default class Footer extends Component{
                         <h5>Connect With Me!</h5>
                     </div>
                     <div className="social-media-links" >
-                        <a href="https://www.facebook.com/FoxChrisRealThe" target="_blank"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="https://twitter.com/foxchrisrealthe" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/in/foxchrisrealthe/" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/FoxChrisRealThe" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/foxchrisrealthe" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/foxchrisrealthe/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                 </section>
                 <div className ="copyright-line">

@@ -7,7 +7,7 @@ export default class CryptoHistoricalComponent extends Component {
     render() {
         return (
             <div>
-                <h2>Historical Data From Past Year</h2>
+                <h2 className="CryptoHeading">historical data from past year</h2>
                 <table className="CryptoTable">
                 <thead>
                     <tr>

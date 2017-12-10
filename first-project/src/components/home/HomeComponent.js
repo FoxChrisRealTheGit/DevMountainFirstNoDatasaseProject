@@ -3,7 +3,7 @@ import Header from '../Header/HeaderComponent';
 import Footer from '../Footer/FooterComponent';
 
 //Children
-import HomeHero from './HomeComponentFolder/HomeHeroComponent';
+import HomeHeroComponent from './HomeComponentFolder/HomeHeroComponent';
 import HomeRecent from './HomeComponentFolder/HomeRecentWorkComponent';
 import HomeBlog from './HomeComponentFolder/HomeBlogComponent';
 import HomePublications from './HomeComponentFolder/HomePublicationsComponent';
@@ -14,7 +14,7 @@ export default class HomeComponent extends Component{
         return(
             <div>
                 <Header />
-                <HomeHero />
+                <HomeHeroComponent />
                 <HomeRecent />
                 <HomeBlog />
                 <HomePublications />

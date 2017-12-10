@@ -7,7 +7,7 @@ export default class CryptoComparisonComponent extends Component{
     render(){
         return(
             <div className="CryptoTableBox">
-            <h2>Comparison Table</h2>
+            <h2 className="CryptoHeading">comparison table</h2>
                 <table className="CryptoTable">
                 <thead>
                     <tr>

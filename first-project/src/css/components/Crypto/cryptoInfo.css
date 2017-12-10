@@ -59,3 +59,13 @@
 table{
     border-spacing: 5px;
 }
+
+.CryptoHeading{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    align-items: center;
+    font-size: 40px;
+    font-variant: small-caps;
+    font-weight: 100;
+}

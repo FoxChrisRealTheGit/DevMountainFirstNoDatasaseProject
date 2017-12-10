@@ -1,0 +1,24 @@
+.main-head{
+    margin: 150px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+.section-head{
+    margin: 150px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+
+.bottom-item{
+    margin-bottom: 50px;
+}
