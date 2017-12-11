@@ -17,6 +17,15 @@
     left: 3px;
 }
 
+.homeIcons{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: black;
+font-size: 150px;
+padding: 10px;
+}
+
 /*mini links*/
 .home-mini-links{
     display: flex;
@@ -38,16 +47,21 @@
 
 .designerDescription{
     margin: 10px;
+    font-weight: 300;
+    line-height: 2.5;
 
 }
 
 .writerDescription{
     margin: 10px;
-
+    font-weight: 300;
+    line-height: 2.5;
 }
 
 .poetDescription{
     margin: 10px;
+    font-weight: 300;
+    line-height: 2.5;
 }
 
 
@@ -86,7 +100,7 @@
 .Blog-block{
     display: flex;
     background: black;
-    height: 400px;
+    height: 360px;
     width: 300px;
     margin: 40px 20px;
 }
@@ -107,7 +121,7 @@
 .publication-block{
     display: flex;
     background: black;
-    height: 400px;
+    height: 360px;
     width: 300px;
     margin: 40px 20px;
 }

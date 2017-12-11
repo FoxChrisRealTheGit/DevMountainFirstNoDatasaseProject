@@ -2,22 +2,46 @@ import React from 'react';
 
 import '../../../css/components/Main-Pages/resume.css';
 
-export default function ResumeEducation(){
+export default function ResumeEducation() {
 
-    return(
-        <section>
-        <section>
-            <h2>Education</h2>
-            <h3>DevMountain Web Development Bootcamp, November 2017-Current</h3>
-            <h3>Lynda.com Completed Certificates, March 2017-Current</h3>
-            <h3>Southern New Hampshire Universirty, August 2017-Current</h3>
-            <h3>Pikes Peak Community College, August 2012 - December 2013</h3>
+    return (
+        <section className="resumeEducationWhole">
+            <section>
+                <h2 className="resumeSectionHead">Education</h2>
+                <div className="resumeItem">
+                    <h3>November 2017-Current <h4 className="resumeItemName">DevMountain Web Development Bootcamp</h4></h3>
+                </div>
+                <div className="resumeItem">
+                    <h3>March 2017-Current <h4 className="resumeItemName">Lynda.com Completed Certificates</h4></h3>
+                </div>
+                <div className="resumeItem">
+                    <h3>August 2017-Current <h4 className="resumeItemName">Southern New Hampshire Universirty</h4></h3>
+                    <ul>
+                    <li>Working on BA in Graphic Design and Media Arts</li>
+                    </ul>
+                </div>
+                <div className="resumeItem">
+                    <h3>August 2012 - December 2013 <h4 className="resumeItemName">Pikes Peak Community College</h4></h3>
+                    <ul>
+                    <li>Associate Degree</li>
+                    </ul>
+                </div>
             </section>
-        <section>
-            <h2>Work Experience</h2>
-            <p>Portfolio</p>
-            <h3>Amazon</h3>
-            <h3>Colorado Springs Youth Symphony</h3>
+            <section className="resumeItem">
+                <h2 className="resumeSectionHead">Work Experience</h2>
+                <p>Portfolio</p>
+                <div className="resumeItem">
+                    <h3>August 2017 - November 2017<h4 className="resumeItemName">Amazon</h4></h3>
+                    <ul>
+                    <li>Worked with Robots</li>
+                    </ul>
+                </div>
+                <div className="resumeItem">
+                    <h3>August 2016 - March 2016<h4 className="resumeItemName">Colorado Springs Youth Symphony</h4></h3>
+                    <ul>
+                    <li>Receptionist</li>
+                    </ul>
+                </div>
             </section>
         </section>
     )

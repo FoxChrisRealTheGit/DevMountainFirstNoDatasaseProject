@@ -6,14 +6,36 @@ const CryptoPrice = require('./controller/CryptoPriceController');
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
-const port = 9001;
+app.use(express.static('E:/DevMountain/Cohort/DevMountainFirstNoDatabaseProject/first-project'));
+const port = 9003;
 
 
-// var btcPrice = [0];
 
-// axios.get("https://api.coinmarketcap.com/v1/ticker/bitcoin/").then(res=>{
-//         btcPrice: res.data[0].price_usd
-// }).catch(err=>console.log(err))
+app.get("/api/BTCComp", CryptoPrice.getBTCComparisonData);
+app.get("/api/ETHComp", CryptoPrice.getETHComparisonData);
+app.get("/api/AUGComp", CryptoPrice.getAUGComparisonData);
+app.get("/api/DASHComp", CryptoPrice.getDASHComparisonData);
+
+
+// app.get("/api/data", (req, res)=>{
+//     axios.get("https://api.coinmarketcap.com/v1/ticker/?convert=USD&limit=38").then( response => {
+//         res.send(response.data);
+//     });
+
+//     res.send(res.data);
+// }),
+
+//USD data
+//app.get("api/test", CryptoPrice.getUSDCryptoPrices);
+
+//EUR data
+//https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=38
+
+//RUB data
+//https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=38
+
+//CNY data 
+//https://api.coinmarketcap.com/v1/ticker/?convert=CNY&limit=38
 
 // app.get("/api/", (res, req)=>{
 //     res.send(btcPrice);
